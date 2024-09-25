@@ -41,7 +41,7 @@ namespace ShopFastDefuse
         {
             if (JsonFastDefuse == null || SHOP_API == null) return;
 
-            SHOP_API.CreateCategory(CategoryName, "Быстрое разминирование");
+            SHOP_API.CreateCategory(CategoryName, "Р‘С‹СЃС‚СЂРѕРµ СЂР°Р·РјРёРЅРёСЂРѕРІР°РЅРёРµ");
 
             var sortedItems = JsonFastDefuse
                 .Properties()
